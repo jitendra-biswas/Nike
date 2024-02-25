@@ -116,6 +116,14 @@ nav .nav1{
     color:rgba(51, 14, 217, 0.701);
 }
 
+.nav2 #magnifying-glass{
+    display: none;
+}
+
+.nav2 #bar{
+    display: none;
+}
+
 .search{
     display: flex;
     gap: 30px;
@@ -158,7 +166,12 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.5vw;
 
+}
+
+.image #join a{
+    font-size: 1.5vw;
 }
 
 .image1{
@@ -1215,4 +1228,133 @@ input{
 .conditions p:hover{
     cursor: pointer;
     color: white;
+}
+
+
+/* FOR RESPONSIVE DESIGN */
+
+@media (max-width:600px) {
+  .nav1{
+    display: none;
+  }
+
+  .nav2-elem .elem{
+    display: none;
+  }
+  .nav2{
+    padding: 20px;
+  }
+
+  .nav2 .container{
+    display: none;
+  }
+
+  .nav2 #magnifying-glass{
+    display: block;
+}
+
+.nav2 #bar{
+    display: block;
+}
+    
+.contents{
+    height: auto;
+    padding: 20px;
+}
+.image{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0px 50px;
+   
+}
+
+.image #join{
+    height: 12vmin;
+    font-size: 3.5vmin;
+
+}
+
+.image #join a{ 
+    font-size: 3.5vmin;
+
+    
+}
+
+.image1{
+    width: 90vmin;
+    height: 50vmin;
+    background-image: url(image1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3.5vw;
+
+}
+
+.image1 p{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 h1{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 button{
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.image1 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease-in 0s;
+}
+
+.slogan{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.slogan h1{
+    font-size: 40px;
+}
+
+.slogan p{
+    font-size: 20px;
+}
+
+.slogan button{
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    filter: drop-shadow(5px 5px 5px rgba(30, 29, 29, 0.914));
+}
+
+.slogan button:hover{
+    cursor: pointer;
+    background-color: rgb(254, 251, 251);
+    color: black;
+    transition: background-color 0.2s ease-in 0s;
+    border: 1px solid rgb(67, 66, 66);
+
+}
 }
