@@ -271,7 +271,7 @@ input{
 }
 
 .items-goods .item p{
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-top: 10px;
 
 }
@@ -554,8 +554,17 @@ input{
     background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw2852ba0a/2023/12/Homepage/PC-min.png?q=80);
     background-size: cover;
     display: flex;
-    align-items: center;
+    justify-content: center;
+
 }
+
+.kids button{
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 350px;
+}
+
+
 
 .explore button{
     display: flex;
@@ -1355,6 +1364,335 @@ input{
     color: black;
     transition: background-color 0.2s ease-in 0s;
     border: 1px solid rgb(67, 66, 66);
+}
+
+.slogan h1{
+    font-size: 25px;
+}
+.slogan p{
+    font-size: 12px;
+}
+
+.items-goods{
+    display: flex;
+    gap: 35vw;
+}
+
+.items-goods .item img{
+    width: 85vw;
+    margin-right: -100px;
+}
+
+.items-goods .item p{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+ .trending{
+    padding: 50px 0px;
+ }
+
+.trending-items .trending .items1{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
 
 }
+
+.trending .items1 img{
+    width: 90vw;
+    height: 50vh;
+}
+
+.trending-items .trending .items2{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items2 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items3{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items3 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items4{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items4 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items5{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items5 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items6{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items6 img{
+    width: 90vw;
+    height: 50vh;
+}
+
+
+
+.more-explor #more{
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.explore{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+
+}
+
+.explore .men{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dwad2fec28/2023/12/Homepage/PB-.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.explore .women{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw4848ee91/2023/12/Homepage/PA-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.explore .kids{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw2852ba0a/2023/12/Homepage/PC-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.explore button{
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+
+.explore button{
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+.explore button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+/* member responsive */
+.nike-membership #nike{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.membership{
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+
+}
+
+
+
+/* CSS FOR MEMBER 1 */
+
+.member1{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member1.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member1 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.member2{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member2.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member2 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.member3{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member3.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member3 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.shop-container{
+    gap: 30px;
+    font-size: 15px;
+    padding-right: 150px;
+}
+
+.final-footer{
+    height: 50vh;
+    background-color: black;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.idea{
+    display: flex;
+    padding: 0px 30px;
+    gap:50px;
+}
+
+.idea .icon{}
+
+.end-footer{
+    flex-direction: column;
+    margin-top: 3vh;
+   
+}
+
+.end-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.location{
+    display: none;
+}
+
+.conditions{
+    display: flex;
+    gap:50px;
+    padding: 30px 100px;
+}
+
+.conditions p{
+    font-size: 13px;
+    color:rgb(143, 143, 143);
+}
+
+    justify-content: space-between;
+}
+.location{
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.conditions{
+    display: flex;
+    gap:50px;
+    padding: 30px 30px;
+}
+
+
 }
