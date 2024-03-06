@@ -1674,13 +1674,6 @@ input{
     padding: 30px 100px;
 }
 
-.conditions p{
-    font-size: 13px;
-    color:rgb(143, 143, 143);
-}
-
-    justify-content: space-between;
-}
 .location{
     color: white;
     padding: 30px 100px;
@@ -1693,6 +1686,5 @@ input{
     gap:50px;
     padding: 30px 30px;
 }
-
 
 }
