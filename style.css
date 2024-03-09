@@ -151,7 +151,7 @@ input{
 
 .contents{
     height: auto;
-    padding: 2vw;
+    padding: 0vw 2vw;
     
 }
 .image{
@@ -1275,7 +1275,7 @@ footer{
     
 .contents{
     height: auto;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .image{
     width: 100vw;
@@ -1284,7 +1284,7 @@ footer{
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    padding: 0px 50px;
+    padding: 0px -50px;
    
 }
 
@@ -1301,7 +1301,7 @@ footer{
 }
 
 .image1{
-    width: 90vmin;
+    width: 100vmin;
     height: 50vmin;
     background-image: url(image1.png);
     background-size: cover;
@@ -1390,7 +1390,7 @@ footer{
 .items-goods .item img{
     width: 85vmin;
     margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .items-goods .item p{
