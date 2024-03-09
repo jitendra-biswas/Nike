@@ -268,7 +268,7 @@ input{
 }
 
 .items-goods .item img{
-   width: 35vw;
+   width: 25vw;
 }
 
 .items-goods .item p{
@@ -1382,13 +1382,14 @@ footer{
 
 .items-goods{
     display: flex;
-    gap: 50vw;
+    gap: 50px;
     width: 100vw;
+    
 }
 
 .items-goods .item img{
-    width: 70vw;
-    margin-right: -100px;
+    width: 400px;
+    margin-right: 50px;
 }
 
 .items-goods .item p{
