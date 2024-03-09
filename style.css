@@ -1382,15 +1382,15 @@ footer{
 
 .items-goods{
     display: flex;
-    gap: 25px;
+    gap: 10px;
     width: 100vw;
     
 }
 
 .items-goods .item img{
-    width: 350px;
-    margin-right: 30px;
-    margin-left: 30px;
+    width: 85vmin;
+    margin-right: 15px;
+    margin-left: 20px;
 }
 
 .items-goods .item p{
