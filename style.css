@@ -151,7 +151,7 @@ input{
 
 .contents{
     height: auto;
-    padding: 1vw;
+    padding: 2vw;
     
 }
 .image{
@@ -1382,14 +1382,15 @@ footer{
 
 .items-goods{
     display: flex;
-    gap: 35px;
+    gap: 25px;
     width: 100vw;
     
 }
 
 .items-goods .item img{
-    width: 340px;
-    margin-right: 50px;
+    width: 350px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .items-goods .item p{
@@ -1552,6 +1553,16 @@ footer{
     background-color: black;
     color: white;
     transition: background-color 0.3s ease-out 0s;
+}
+
+.latest{
+    display: flex;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+.latest img{
+    width: 90vw;
 }
 
 /* member responsive */
