@@ -1275,7 +1275,7 @@ footer{
     
 .contents{
     height: auto;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 .image{
     width: 100vw;
@@ -1382,13 +1382,13 @@ footer{
 
 .items-goods{
     display: flex;
-    gap: 50px;
+    gap: 35px;
     width: 100vw;
     
 }
 
 .items-goods .item img{
-    width: 400px;
+    width: 340px;
     margin-right: 50px;
 }
 
@@ -1398,7 +1398,7 @@ footer{
 }
 
  .trending{
-    padding: 50px 0px;
+    padding: 50px 20px;
  }
 
 .trending-items .trending .items1{
@@ -1498,8 +1498,8 @@ footer{
 
 .explore{
     display: flex;
-    gap: 100px;
     flex-direction: column;
+    padding-left: 20px;
 
 }
 
@@ -1510,6 +1510,7 @@ footer{
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 
 }
 
@@ -1520,6 +1521,7 @@ footer{
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .explore .kids{
@@ -1529,6 +1531,7 @@ footer{
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .explore button{
